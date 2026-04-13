@@ -8,7 +8,7 @@ import NavLink from './NavLink';
 
 const Navbar = () => {
     return (
-        <div className="navbar md:w-10/12 mx-auto">
+        <div className="navbar md:w-11/12 lg:w-10/12 mx-auto">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost md:hidden">
