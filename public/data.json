@@ -1,0 +1,283 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "picture": "https://i.ibb.co.com/wNSxfRW5/jhon-doe-1.avif",
+    "email": "john.doe92@gmail.com",
+    "days_since_contact": 12,
+    "status": "Overdue",
+    "tags": [
+      "COLLEGE",
+      "CLOSE FRIEND"
+    ],
+    "bio": "Met in university. Love hiking together.",
+    "goal": 14,
+    "next_due_date": "2025-07-20"
+  },
+  {
+    "id": 2,
+    "name": "Sarah Ahmed",
+    "picture": "https://i.ibb.co.com/k2dYt0K3/sarah-ahmed-2.avif",
+    "email": "sarah.ahmed21@gmail.com",
+    "days_since_contact": 3,
+    "status": "On-Track",
+    "tags": [
+      "SCHOOL"
+    ],
+    "bio": "Childhood friend. Always supportive.",
+    "goal": 10,
+    "next_due_date": "2025-07-28"
+  },
+  {
+    "id": 3,
+    "name": "Michael Lee",
+    "picture": "https://i.ibb.co.com/LGyXMrq/michel-lee-3.webp",
+    "email": "mike.lee.dev@gmail.com",
+    "days_since_contact": 20,
+    "status": "Overdue",
+    "tags": [
+      "GYM"
+    ],
+    "bio": "Gym partner. Loves fitness challenges.",
+    "goal": 7,
+    "next_due_date": "2025-07-15"
+  },
+  {
+    "id": 4,
+    "name": "Aisha Khan",
+    "picture": "https://i.ibb.co.com/f7FdTq4/aisha-khan-4.jpg",
+    "email": "aisha.khan07@gmail.com",
+    "days_since_contact": 1,
+    "status": "On-Track",
+    "tags": [
+      "FAMILY"
+    ],
+    "bio": "Cousin. We talk almost every day.",
+    "goal": 7,
+    "next_due_date": "2025-07-29"
+  },
+  {
+    "id": 5,
+    "name": "David Smith",
+    "picture": "https://i.ibb.co.com/KjV3v7BF/david-smith-5.webp",
+    "email": "david.smith.work@gmail.com",
+    "days_since_contact": 25,
+    "status": "Overdue",
+    "tags": [
+      "WORK"
+    ],
+    "bio": "Former colleague. Great mentor.",
+    "goal": 14,
+    "next_due_date": "2025-07-12"
+  },
+  {
+    "id": 6,
+    "name": "Emily Johnson",
+    "picture": "https://i.ibb.co.com/bjmtLbf6/emily-jhonson-6.webp",
+    "email": "emily.johnson98@gmail.com",
+    "days_since_contact": 6,
+    "status": "On-Track",
+    "tags": [
+      "COLLEGE"
+    ],
+    "bio": "Study partner from university.",
+    "goal": 10,
+    "next_due_date": "2025-07-24"
+  },
+  {
+    "id": 7,
+    "name": "Daniel Brown",
+    "picture": "https://i.ibb.co.com/q3kQj8TY/daniel-brown-7.jpg",
+    "email": "daniel.brown.travel@gmail.com",
+    "days_since_contact": 18,
+    "status": "Overdue",
+    "tags": [
+      "TRAVEL"
+    ],
+    "bio": "Travel buddy. Explored many places together.",
+    "goal": 14,
+    "next_due_date": "2025-07-18"
+  },
+  {
+    "id": 8,
+    "name": "Olivia Wilson",
+    "picture": "https://i.ibb.co.com/PvdG8jHg/olivia-wilson-8.webp",
+    "email": "olivia.wilson23@gmail.com",
+    "days_since_contact": 4,
+    "status": "On-Track",
+    "tags": [
+      "FRIEND"
+    ],
+    "bio": "Met at a conference. Great conversations.",
+    "goal": 10,
+    "next_due_date": "2025-07-26"
+  },
+  {
+    "id": 9,
+    "name": "James Taylor",
+    "picture": "https://i.ibb.co.com/hGBHGMV/james-tailor-9.webp",
+    "email": "james.taylor11@gmail.com",
+    "days_since_contact": 15,
+    "status": "Almost Due",
+    "tags": [
+      "SPORTS"
+    ],
+    "bio": "Football teammate. Very competitive.",
+    "goal": 7,
+    "next_due_date": "2025-07-17"
+  },
+  {
+    "id": 10,
+    "name": "Sophia Martinez",
+    "picture": "https://i.ibb.co.com/Kcg7PyRH/sophia-martinex-10.jpg",
+    "email": "sophia.martinez.dev@gmail.com",
+    "days_since_contact": 2,
+    "status": "On-Track",
+    "tags": [
+      "NEIGHBOR"
+    ],
+    "bio": "Lives nearby. Often hang out in evenings.",
+    "goal": 7,
+    "next_due_date": "2025-07-30"
+  },
+  {
+    "id": 11,
+    "name": "William Anderson",
+    "picture": "https://i.ibb.co.com/QvS5KpRM/william-anderson-11.webp",
+    "email": "will.anderson89@gmail.com",
+    "days_since_contact": 22,
+    "status": "Overdue",
+    "tags": [
+      "WORK"
+    ],
+    "bio": "Office friend. Loves tech discussions.",
+    "goal": 14,
+    "next_due_date": "2025-07-13"
+  },
+  {
+    "id": 12,
+    "name": "Isabella Thomas",
+    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "email": "isabella.thomas22@gmail.com",
+    "days_since_contact": 7,
+    "status": "Almost Due",
+    "tags": [
+      "COLLEGE"
+    ],
+    "bio": "Classmate from university.",
+    "goal": 10,
+    "next_due_date": "2025-07-23"
+  },
+  {
+    "id": 13,
+    "name": "Ethan White",
+    "picture": "https://i.ibb.co.com/ks5KxQCh/ethen-white-13.webp",
+    "email": "ethan.white.gamer@gmail.com",
+    "days_since_contact": 28,
+    "status": "Overdue",
+    "tags": [
+      "GAMING"
+    ],
+    "bio": "Online gaming friend.",
+    "goal": 14,
+    "next_due_date": "2025-07-11"
+  },
+  {
+    "id": 14,
+    "name": "Mia Harris",
+    "picture": "https://i.ibb.co.com/73ZXSFm/mia-14.webp",
+    "email": "mia.harris01@gmail.com",
+    "days_since_contact": 5,
+    "status": "On-Track",
+    "tags": [
+      "FRIEND"
+    ],
+    "bio": "Met through mutual friends.",
+    "goal": 10,
+    "next_due_date": "2025-07-25"
+  },
+  {
+    "id": 15,
+    "name": "Alexander Clark",
+    "picture": "https://i.ibb.co.com/pB99wFgM/alexandar-clark-15.avif",
+    "email": "alex.clark.biz@gmail.com",
+    "days_since_contact": 16,
+    "status": "Almost Due",
+    "tags": [
+      "BUSINESS"
+    ],
+    "bio": "Business partner and advisor.",
+    "goal": 14,
+    "next_due_date": "2025-07-16"
+  },
+  {
+    "id": 16,
+    "name": "Charlotte Lewis",
+    "picture": "https://i.ibb.co.com/r2rSt81S/charlette-16.webp",
+    "email": "charlotte.lewis7@gmail.com",
+    "days_since_contact": 3,
+    "status": "On-Track",
+    "tags": [
+      "FAMILY"
+    ],
+    "bio": "Close family friend.",
+    "goal": 7,
+    "next_due_date": "2025-07-28"
+  },
+  {
+    "id": 17,
+    "name": "Benjamin Walker",
+    "picture": "https://randomuser.me/api/portraits/men/17.jpg",
+    "email": "ben.walker.fit@gmail.com",
+    "days_since_contact": 21,
+    "status": "Overdue",
+    "tags": [
+      "GYM"
+    ],
+    "bio": "Fitness enthusiast. Motivates others.",
+    "goal": 7,
+    "next_due_date": "2025-07-14"
+  },
+  {
+    "id": 18,
+    "name": "Amelia Hall",
+    "picture": "https://randomuser.me/api/portraits/women/18.jpg",
+    "email": "amelia.hall.home@gmail.com",
+    "days_since_contact": 2,
+    "status": "On-Track",
+    "tags": [
+      "NEIGHBOR"
+    ],
+    "bio": "Lives next door. Very friendly.",
+    "goal": 7,
+    "next_due_date": "2025-07-30"
+  },
+  {
+    "id": 19,
+    "name": "Henry Allen",
+    "picture": "https://i.ibb.co.com/p6FkHByR/henry-allen-19.avif",
+    "email": "henry.allen.cricket@gmail.com",
+    "days_since_contact": 27,
+    "status": "Overdue",
+    "tags": [
+      "SPORTS"
+    ],
+    "bio": "Cricket teammate.",
+    "goal": 14,
+    "next_due_date": "2025-07-12"
+  },
+  {
+    "id": 20,
+    "name": "Ella Young",
+    "picture": "https://randomuser.me/api/portraits/women/20.jpg",
+    "email": "ella.young.art@gmail.com",
+    "days_since_contact": 6,
+    "status": "On-Track",
+    "tags": [
+      "FRIEND"
+    ],
+    "bio": "Met during a workshop.",
+    "goal": 10,
+    "next_due_date": "2025-07-24"
+  }
+]
