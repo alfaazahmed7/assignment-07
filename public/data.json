@@ -50,7 +50,8 @@
     "days_since_contact": 1,
     "status": "On-Track",
     "tags": [
-      "FAMILY"
+      "FAMILY",
+      "COUSIN"
     ],
     "bio": "Cousin. We talk almost every day.",
     "goal": 7,
@@ -92,7 +93,8 @@
     "days_since_contact": 18,
     "status": "Overdue",
     "tags": [
-      "TRAVEL"
+      "TRAVEL",
+      "FRIEND"
     ],
     "bio": "Travel buddy. Explored many places together.",
     "goal": 14,
@@ -134,7 +136,8 @@
     "days_since_contact": 2,
     "status": "On-Track",
     "tags": [
-      "NEIGHBOR"
+      "NEIGHBOR",
+      "FRIEND"
     ],
     "bio": "Lives nearby. Often hang out in evenings.",
     "goal": 7,
@@ -176,7 +179,8 @@
     "days_since_contact": 28,
     "status": "Overdue",
     "tags": [
-      "GAMING"
+      "GAMING",
+      "FRIEND"
     ],
     "bio": "Online gaming friend.",
     "goal": 14,
@@ -190,7 +194,8 @@
     "days_since_contact": 5,
     "status": "On-Track",
     "tags": [
-      "FRIEND"
+      "FRIEND",
+      "ART"
     ],
     "bio": "Met through mutual friends.",
     "goal": 10,
