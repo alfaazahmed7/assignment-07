@@ -4,12 +4,13 @@ import React, { useContext } from 'react';
 import { BsChatLeftText } from 'react-icons/bs';
 import { FaVideo } from 'react-icons/fa';
 import { IoCallOutline } from 'react-icons/io5';
+import { toast } from 'react-toastify';
 
 const FriendsTimelineHistory = ({ friend }) => {
     const { timelineData, setTimelineData } = useContext(TimelineContext);
     console.log(timelineData, "timelineData from context");
 
-    const handleTimelineHistory = (type) => {
+    const handleTimelineHistory = (type, friend) => {
         setTimelineData([
             ...timelineData,
             {
@@ -19,24 +20,31 @@ const FriendsTimelineHistory = ({ friend }) => {
                 date: new Date().toISOString()
             }
         ]);
+
+        const messages = {
+            call: "📞 Call completed successfully",
+            text: "💬 Message sent successfully",
+            video: "🎥 Video call logged successfully"
+        };
+        toast.success(`${messages[type]} with ${friend.name}`);
     };
 
     return (
         <div className='grid grid-cols-3 gap-5'>
             <button
-                onClick={() => handleTimelineHistory("call")}
+                onClick={() => handleTimelineHistory("call", friend)}
                 className='bg-[#F8FAFC] p-5 rounded-md flex flex-col gap-2 items-center justify-center cursor-pointer'>
                 <p className='text-xl xl:text-2xl text-[#1F2937] font-bold'><IoCallOutline /></p>
                 <p className='text-[#1F2937] font-semibold text-base xl:text-xl'>Call</p>
             </button>
             <button
-                onClick={() => handleTimelineHistory("text")}
+                onClick={() => handleTimelineHistory("text", friend)}
                 className='bg-[#F8FAFC] p-5 rounded-md flex flex-col gap-2 items-center justify-center cursor-pointer'>
                 <p className='text-xl xl:text-2xl text-[#1F2937] font-bold'><BsChatLeftText /></p>
                 <p className='text-[#1F2937] font-semibold text-base xl:text-xl'>Text</p>
             </button>
             <button
-                onClick={() => handleTimelineHistory("video")}
+                onClick={() => handleTimelineHistory("video", friend)}
                 className='bg-[#F8FAFC] p-5 rounded-md flex flex-col gap-2 items-center justify-center cursor-pointer'>
                 <p className='text-xl xl:text-2xl text-[#1F2937] font-bold'><FaVideo /></p>
                 <p className='text-[#1F2937] font-semibold text-base xl:text-xl'>Video</p>

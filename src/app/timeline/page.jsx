@@ -46,7 +46,7 @@ const TimelineHistory = () => {
                                                 <p className='text-[#244D3F] text-xl font-medium'>Text</p>
                                                 <p className='text-[#64748B] text-lg'>{`with ${item.name}`}</p>
                                             </div>
-                                            <p className='text-[#64748B] font-medium'> {new Date().toLocaleDateString("en-US", {
+                                            <p className='text-[#64748B] font-medium'> {new Date(item.date).toLocaleDateString("en-US", {
                                                 month: "long",
                                                 day: "numeric",
                                                 year: "numeric",
@@ -65,7 +65,7 @@ const TimelineHistory = () => {
                                                 <p className='text-[#244D3F] text-xl font-medium'>Video</p>
                                                 <p className='text-[#64748B] text-lg'>{`with ${item.name}`}</p>
                                             </div>
-                                            <p className='text-[#64748B] font-medium'> {new Date().toLocaleDateString("en-US", {
+                                            <p className='text-[#64748B] font-medium'> {new Date(item.date).toLocaleDateString("en-US", {
                                                 month: "long",
                                                 day: "numeric",
                                                 year: "numeric",
