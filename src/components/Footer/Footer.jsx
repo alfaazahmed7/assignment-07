@@ -4,7 +4,7 @@ import { FaXTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
     return (
-        <div className=' my-10 bg-[#244D3F] pt-10'>
+        <div className='mt-10 bg-[#244D3F] pt-10'>
             <div className='w-10/12 mx-auto'>
                 <div className='text-center mb-5'>
                     <h2 className='text-white text-5xl font-bold mb-3'>Keen<span className='font-semibold'>Keeper</span></h2>
@@ -33,7 +33,7 @@ const Footer = () => {
                     <div className='md:flex text-center justify-between gap-10'>
                         <p className='text-white opacity-70 mb-3'>© 2026 KeenKeeper. All rights reserved.</p>
                         <div>
-                            <ul className='flex gap-5 text-white opacity-70 text-sm justify-center md:justify-start'>
+                            <ul className='flex gap-5 text-white opacity-70 text-sm justify-center md:justify-start cursor-pointer'>
                                 <li>Privacy Policy </li>
                                 <li>Terms of Service </li>
                                 <li>Cookies </li>

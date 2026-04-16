@@ -1,9 +1,7 @@
+import FriendsTimelineHistory from '@/components/timeline/FriendsTimelineHistory';
 import Image from 'next/image';
 import React from 'react';
-import { BsChatLeftText } from 'react-icons/bs';
-import { FaVideo } from 'react-icons/fa';
 import { FiArchive } from 'react-icons/fi';
-import { IoCallOutline } from 'react-icons/io5';
 import { MdOutlineDelete, MdOutlineNotificationsPaused } from 'react-icons/md';
 
 const friendsPromise = async () => {
@@ -127,20 +125,7 @@ const FriendDetailsPage = async ({ params }) => {
                     <div className='bg-white shadow-sm mt-10 p-5 rounded-md'>
                         <p className='text-[#244D3F] text-lg xl:text-xl font-medium mb-4'>Quick Check-In</p>
 
-                        <div className='grid grid-cols-3 gap-5'>
-                            <div className='bg-[#F8FAFC] p-5 rounded-md flex flex-col gap-2 items-center justify-center cursor-pointer'>
-                                <p className='text-xl xl:text-2xl text-[#1F2937] font-bold'><IoCallOutline /></p>
-                                <p className='text-[#1F2937] font-semibold text-base xl:text-xl'>Call</p>
-                            </div>
-                            <div className='bg-[#F8FAFC] p-5 rounded-md flex flex-col gap-2 items-center justify-center cursor-pointer'>
-                                <p className='text-xl xl:text-2xl text-[#1F2937] font-bold'><BsChatLeftText /></p>
-                                <p className='text-[#1F2937] font-semibold text-base xl:text-xl'>Text</p>
-                            </div>
-                            <div className='bg-[#F8FAFC] p-5 rounded-md flex flex-col gap-2 items-center justify-center cursor-pointer'>
-                                <p className='text-xl xl:text-2xl text-[#1F2937] font-bold'><FaVideo /></p>
-                                <p className='text-[#1F2937] font-semibold text-base xl:text-xl'>Video</p>
-                            </div>
-                        </div>
+                        <FriendsTimelineHistory friend={friend} />
                     </div>
                 </div>
             </div>
