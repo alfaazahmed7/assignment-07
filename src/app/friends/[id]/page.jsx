@@ -4,6 +4,12 @@ import React from 'react';
 import { FiArchive } from 'react-icons/fi';
 import { MdOutlineDelete, MdOutlineNotificationsPaused } from 'react-icons/md';
 
+export const metadata = {
+    title: "Friend Details",
+    description:
+        "To stay connect with your friends, KeenKeeper is the best solution.",
+}
+
 const friendsPromise = async () => {
     const res = await fetch("http://localhost:3000/data.json");
     const data = await res.json();

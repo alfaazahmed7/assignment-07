@@ -3,6 +3,12 @@ import Friends from "@/components/homepage/Friends";
 import Stats from "@/components/homepage/Stats";
 import { Suspense } from "react";
 
+export const metadata = {
+  title: "KeenKeeper",
+  description:
+    "To stay connect with your friends, KeenKeeper is the best solution.",
+}
+
 const SectionLoader = () => {
   return (
     <div className="flex justify-center items-center py-10">
