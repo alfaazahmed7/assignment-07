@@ -5,7 +5,6 @@ export const TimelineContext = createContext();
 
 const TimelineContextProvider = ({ children }) => {
 
-    //  Initialize state from localStorage
     const [timelineData, setTimelineData] = useState(() => {
         if (typeof window !== "undefined") {
             const storedData = localStorage.getItem("timelineData");
@@ -14,7 +13,6 @@ const TimelineContextProvider = ({ children }) => {
         return [];
     });
 
-    //  Save to localStorage whenever data changes
     useEffect(() => {
         localStorage.setItem("timelineData", JSON.stringify(timelineData));
     }, [timelineData]);

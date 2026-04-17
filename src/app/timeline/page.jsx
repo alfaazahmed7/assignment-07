@@ -84,7 +84,7 @@ const TimelineHistory = () => {
                             No Timeline History
                         </h3>
                         <p className="text-gray-500 max-w-sm">
-                            You haven't added any interactions yet. Start calling, texting, or video chatting to see your timeline here.
+                            You have not added any interactions yet. Start calling, texting, or video chatting to see your timeline here.
                         </p>
                     </div>
                 ) : (
@@ -152,7 +152,7 @@ const TimelineHistory = () => {
                 )}
 
                 {timelineData.length > 0 && (
-                    <div className="text-center mt-6">
+                    <div className="text-center mt-10">
                         <button
                             onClick={handleClearAll}
                             className="btn bg-red-500 hover:bg-red-600 text-white"
