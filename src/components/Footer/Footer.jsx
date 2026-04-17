@@ -15,13 +15,13 @@ const Footer = () => {
                     <p className='text-white text-lg font-medium mb-3'>Social Links</p>
                     <div className="flex items-center justify-center gap-5">
                         <ul className="flex items-center gap-5">
-                            <li className="w-12 h-12 rounded-full bg-white flex items-center justify-center text-[#0f1117] text-xl cursor-pointer">
+                            <li className="w-12 h-12 rounded-full bg-white flex items-center justify-center text-[#0f1117] text-xl cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110">
                                 <FaInstagram />
                             </li>
-                            <li className="w-12 h-12 rounded-full bg-white flex items-center justify-center text-[#0f1117] text-xl cursor-pointer">
+                            <li className="w-12 h-12 rounded-full bg-white flex items-center justify-center text-[#0f1117] text-xl cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110">
                                 <FaFacebookF />
                             </li>
-                            <li className='w-12 h-12 rounded-full bg-white flex items-center justify-center text-[#0f1117] text-xl cursor-pointer'>
+                            <li className='w-12 h-12 rounded-full bg-white flex items-center justify-center text-[#0f1117] text-xl cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110'>
                                 <FaXTwitter />
                             </li>
                         </ul>

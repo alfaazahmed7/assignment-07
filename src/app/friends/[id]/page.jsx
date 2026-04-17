@@ -26,7 +26,7 @@ const FriendDetailsPage = async ({ params }) => {
 
                 {/* Left Side */}
                 <div className='md:col-span-5 xl:col-span-2'>
-                    <div className='bg-white shadow-sm text-center py-8 xl:py-10 rounded-xl mb-5'>
+                    <div className='bg-white shadow-sm text-center py-8 xl:py-10 rounded-xl mb-5 transition-transform duration-300 ease-in-out hover:scale-102'>
 
                         <div className="w-[80px] h-[80px] xl:w-[100px] xl:h-[100px] rounded-full overflow-hidden mx-auto mb-2">
                             <Image
@@ -37,11 +37,9 @@ const FriendDetailsPage = async ({ params }) => {
                                 className="w-full h-full object-cover"
                             />
                         </div>
-
                         <h4 className='text-xl xl:text-2xl font-semibold mb-4'>
                             {friend.name}
                         </h4>
-
                         <div className='mb-5'>
                             <span
                                 className={`${friend.status === "Overdue" && "bg-[#EF4444] text-white"} 
@@ -52,7 +50,6 @@ const FriendDetailsPage = async ({ params }) => {
                                 {friend.status}
                             </span>
                         </div>
-
                         <div className='flex flex-wrap justify-center gap-2 mb-5'>
                             {friend.tags.map((tag, index) => (
                                 <span key={index}
@@ -61,7 +58,6 @@ const FriendDetailsPage = async ({ params }) => {
                                 </span>
                             ))}
                         </div>
-
                         <div>
                             <p className='text-[#64748B] font-medium text-sm xl:text-base px-4'>
                                 {`"${friend.bio}"`}
@@ -70,18 +66,19 @@ const FriendDetailsPage = async ({ params }) => {
                         </div>
                     </div>
 
+
                     <div className='grid grid-cols-1 sm:grid-cols-3 xl:grid-cols-1 gap-3'>
-                        <div className='bg-white shadow-sm flex items-center gap-2 justify-center py-3 rounded-sm cursor-pointer text-base xl:text-xl font-medium'>
+                        <div className='bg-white shadow-sm flex items-center gap-2 justify-center py-3 rounded-sm cursor-pointer text-base xl:text-xl font-medium transition-transform duration-300 ease-in-out hover:scale-103'>
                             <span><MdOutlineNotificationsPaused /></span>
                             <h4>Snooze 2 Weeks</h4>
                         </div>
 
-                        <div className='bg-white shadow-sm flex items-center gap-2 justify-center py-3 rounded-sm cursor-pointer text-base xl:text-xl font-medium'>
+                        <div className='bg-white shadow-sm flex items-center gap-2 justify-center py-3 rounded-sm cursor-pointer text-base xl:text-xl font-medium transition-transform duration-300 ease-in-out hover:scale-103'>
                             <span><FiArchive /></span>
                             <h4>Archive</h4>
                         </div>
 
-                        <div className='bg-white shadow-sm flex items-center gap-2 justify-center py-3 rounded-sm cursor-pointer text-base xl:text-xl font-medium text-red-500'>
+                        <div className='bg-white shadow-sm flex items-center gap-2 justify-center py-3 rounded-sm cursor-pointer text-base xl:text-xl font-medium text-red-500 transition-transform duration-300 ease-in-out hover:scale-103'>
                             <span><MdOutlineDelete /></span>
                             <h4>Delete</h4>
                         </div>
@@ -92,21 +89,21 @@ const FriendDetailsPage = async ({ params }) => {
                 <div className='md:col-span-5 xl:col-span-3 self-start xl:py-7'>
 
                     <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5'>
-                        <div className='bg-white p-5 lg:p-10 rounded-md shadow-md text-center flex flex-col justify-center'>
+                        <div className='bg-white p-5 lg:p-10 rounded-md shadow-md text-center flex flex-col justify-center transition-transform duration-300 ease-in-out hover:scale-102'>
                             <h4 className='text-2xl xl:text-3xl font-bold text-[#244D3F]'>{friend.days_since_contact}</h4>
                             <p className='text-sm xl:text-base text-[#64748B]'>Days Since Contact</p>
                         </div>
-                        <div className='bg-white p-5 lg:p-10 rounded-md shadow-md text-center flex flex-col justify-center'>
+                        <div className='bg-white p-5 lg:p-10 rounded-md shadow-md text-center flex flex-col justify-center transition-transform duration-300 ease-in-out hover:scale-102'>
                             <h4 className='text-2xl xl:text-3xl font-bold text-[#244D3F]'>{friend.goal}</h4>
                             <p className='text-sm xl:text-base text-[#64748B]'>Goal (Days)</p>
                         </div>
-                        <div className='bg-white p-5 lg:p-10 rounded-md shadow-md text-center flex flex-col justify-center'>
+                        <div className='bg-white p-5 lg:p-10 rounded-md shadow-md text-center flex flex-col justify-center transition-transform duration-300 ease-in-out hover:scale-102'>
                             <h4 className='text-2xl xl:text-3xl font-bold text-[#244D3F]'>{friend.next_due_date}</h4>
                             <p className='text-sm xl:text-base text-[#64748B]'>Next Due</p>
                         </div>
                     </div>
 
-                    <div className='bg-white shadow-sm flex justify-between sm:items-center mt-10 p-5 rounded-md gap-3'>
+                    <div className='bg-white shadow-sm flex justify-between sm:items-center mt-10 p-5 rounded-md gap-3 transition-transform duration-300 ease-in-out hover:scale-102'>
                         <div>
                             <p className='text-[#244D3F] text-lg xl:text-xl font-medium mb-2'>Relationship Goal</p>
                             <div className='flex gap-1 text-sm xl:text-base'>

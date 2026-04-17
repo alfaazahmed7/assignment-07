@@ -92,7 +92,7 @@ const TimelineHistory = () => {
                         <div key={index}>
 
                             {item.type === "call" && (
-                                <div className='bg-white p-5 shadow-sm rounded-xl flex items-center gap-3 mb-5'>
+                                <div className='bg-white p-5 shadow-sm rounded-xl flex items-center gap-3 mb-5 transition-transform duration-300 ease-in-out hover:scale-102'>
                                     <p className='text-3xl'><IoCall /></p>
                                     <div>
                                         <div className='flex gap-1'>
@@ -111,7 +111,7 @@ const TimelineHistory = () => {
                             )}
 
                             {item.type === "text" && (
-                                <div className='bg-white p-5 shadow-sm rounded-xl flex items-center gap-3 mb-5'>
+                                <div className='bg-white p-5 shadow-sm rounded-xl flex items-center gap-3 mb-5 transition-transform duration-300 ease-in-out hover:scale-102'>
                                     <p className='text-3xl'><TiMessages /></p>
                                     <div>
                                         <div className='flex gap-1'>
@@ -130,7 +130,7 @@ const TimelineHistory = () => {
                             )}
 
                             {item.type === "video" && (
-                                <div className='bg-white p-5 shadow-sm rounded-xl flex items-center gap-3 mb-5'>
+                                <div className='bg-white p-5 shadow-sm rounded-xl flex items-center gap-3 mb-5 transition-transform duration-300 ease-in-out hover:scale-102'>
                                     <p className='text-3xl'><MdVideocam /></p>
                                     <div>
                                         <div className='flex gap-1'>
