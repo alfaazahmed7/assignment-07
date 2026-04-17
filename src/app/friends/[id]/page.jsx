@@ -11,7 +11,7 @@ export const metadata = {
 }
 
 const friendsPromise = async () => {
-    const res = await fetch("http://localhost:3000/data.json");
+    const res = await fetch("https://keenkeeper-zeta.vercel.app/data.json");
     const data = await res.json();
     return data;
 }
